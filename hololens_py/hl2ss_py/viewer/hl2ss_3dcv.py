@@ -2,8 +2,8 @@
 import numpy as np
 import os
 import cv2
-import hl2ss
-import hl2ss_lnm
+from hololens_py.hl2ss_py.viewer import hl2ss
+from hololens_py.hl2ss_py.viewer import hl2ss_lnm
 
 
 #------------------------------------------------------------------------------

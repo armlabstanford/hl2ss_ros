@@ -1,7 +1,7 @@
 
 import struct
 import types
-import hl2ss
+from hololens_py.hl2ss_py.viewer import hl2ss
 
 
 _MAGIC = 'HL2SSV23'

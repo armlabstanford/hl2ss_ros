@@ -1,6 +1,6 @@
 
 import struct
-import hl2ss
+from hololens_py.hl2ss_py.viewer import hl2ss
 
 
 #------------------------------------------------------------------------------

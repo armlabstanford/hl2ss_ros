@@ -1,5 +1,5 @@
 <launch>
-    <arg name="host" default="192.169.1.44"/>
+    <arg name="host" default="192.169.1.22"/>
     <param name="host" value="$(arg host)"/>
 
     <node name="hl2ss_rgbd_lt" pkg="hololens_ss" type="hololens_client.py" output="screen">

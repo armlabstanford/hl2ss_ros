@@ -3,9 +3,9 @@ import multiprocessing as mp
 import threading
 import numpy as np
 import open3d as o3d
-import hl2ss
-import hl2ss_lnm
-import hl2ss_3dcv
+from hololens_py.hl2ss_py.viewer import hl2ss
+from hololens_py.hl2ss_py.viewer import hl2ss_lnm
+from hololens_py.hl2ss_py.viewer import hl2ss_3dcv
 
 
 #------------------------------------------------------------------------------
