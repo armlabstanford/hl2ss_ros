@@ -2,7 +2,8 @@
 
 HoloLens 2 sensor streaming, adapted as a ROS package by [Zhongchun Yu](https://github.com/yuzhongchun17).
 
-Requires open3d (`pip install open3d`).
+Requires open3d (`pip install open3d`) 
+and av (`pip install av`).
 
 # HL2SS
 HoloLens 2 server software and Python client library for streaming sensor data via TCP. Created to stream HoloLens data in real time over WiFi to a Linux machine for research purposes but also works on Windows and macOS. The server is offered as a standalone application (appxbundle) or as a plugin (dll) compatible with Unity, Unreal, and native UWP applications.
